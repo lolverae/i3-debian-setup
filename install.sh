@@ -34,6 +34,8 @@ sudo apt install -y neofetch htop
 # exa installation
 sudo apt install -y exa
 
+sudo apt install -y unzip
+
 # BatCat installation
 sudo apt install -y bat
 
@@ -129,5 +131,7 @@ source ~/i3gaps-debian/copyconf.sh
 
 sudo apt upgrade
 sudo apt autoremove
+
+rm ripgrep_13.0.0_amd64.deb
 
 printf "\e[1;32mYou can now reboot! Thanks you.\e[0m\n"
